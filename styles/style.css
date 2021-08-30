@@ -25,20 +25,20 @@
 
 .logo_place_header {
   position: absolute;
-height: 32px;
-top: 30px;
-left: 64px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
 }
 
 .header__title {
-margin-left: 64px;
-padding: 0;
-display: flex;
-width: 730px;
-z-index: 2;
-font-size: 102px;
-line-height: 96px;
-font-weight: 550;
+  margin: 0 0 0 64px;
+  padding: 0;
+  display: flex;
+  width: 730px;
+  z-index: 2;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 550;
 }
 
 .header__subtitle {
@@ -50,6 +50,13 @@ font-weight: 550;
   width: 388px;
   z-index: 2;
   line-height: 25px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.header__link {
+  color:  #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -75,7 +82,7 @@ font-weight: 550;
   display: flex;
   width: 80%;
   align-items: center;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 0 auto;
   justify-content: space-between;
 }
@@ -100,16 +107,22 @@ font-weight: 550;
 }
 
 .two-columns__paragraph {
-  margin: 0 0 30px;
+  margin: 30px 0;
   padding: 0;
   font-size: 24px;
   line-height: 34px;
 }
 
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+.two-columns__paragraph:first-of-type {
+  margin-top: 0;
+}
+
 .two-columns__span-accent {
   font-weight: bolder;
 }
-
 
 .section-title {
   margin: 0 auto;
@@ -123,7 +136,7 @@ font-weight: 550;
 }
 
 .section-subtitle {
-  margin: 20px auto 60px;
+  margin: 20px auto 0;
   padding: 0;
   width: 60%;
   text-align: center;
@@ -132,52 +145,47 @@ font-weight: 550;
   font-weight: normal;
 }
 
-.main-table {
+.table {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.table {
   width: 1100px;
-  margin: 0 auto 40px;
+  margin: 0 auto;
   padding: 0;
 }
 
 .table__cell {
   width: 250px;
   padding: 0;
-  margin: 0;
+  margin: 60px 0 0;
   vertical-align: top;
+  list-style: none;
 }
 
 .table__heading {
   margin: 0;
-  padding: 0 0 20px;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
 }
 
 .table__text {
-  margin: 0 0 20px;
-  padding: 0;
+  margin: 0;
+  padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   box-sizing: border-box;
 }
 
-.table__bank {
-  margin: 0 0 60px;
-  padding: 0;
-}
-
 .feynman {
+  margin-top: 100px;
   position: relative;
-  height: 790px;
+  min-height: 790px;
   background-color: #F2F2F2;
   z-index: 1;
+  padding-top: 100px;
 }
 
 .feynman__title {
@@ -204,6 +212,8 @@ font-weight: 550;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .feynman__img {
@@ -220,7 +230,7 @@ font-weight: 550;
   overflow: hidden;
   position: relative;
   padding-bottom: 90px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -254,15 +264,15 @@ font-weight: 550;
 .footer {
   background-color: #1f1f1f;
   padding: 60px 0 40px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   display: flex;
   color: white;
   justify-content: center;
   align-items: center;
+  min-height: 350px;
 }
 
 .footer__columns {
-  min-height: 250px;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -270,14 +280,13 @@ font-weight: 550;
 }
 
 .footer__column {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
-
 }
 
 .logo_place_footer {
@@ -286,25 +295,28 @@ flex-direction: column;
 }
 
 .footer__author {
-line-height: 25px;
-font-size: 18px;
-font-weight: normal;
+  margin: 0;
+  padding: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-heading {
-margin: 0 0 20px;
-line-height: 30px;
-font-size: 18px;
-font-weight: bolder;
+  margin: 0;
+  padding: 0 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 .footer__column-links {
-  margin: 0 0 16px;
-  padding: 0;
+  padding: 0 0 16px;
+  margin: 0;
   list-style: none;
   line-height: 30px;
-font-size: 18px;
-font-weight: normal;
+  font-size: 18px;
+  font-weight: normal;
 }
 .footer__column-link {
   text-decoration: none;
