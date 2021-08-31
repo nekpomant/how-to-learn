@@ -87,10 +87,6 @@
   justify-content: space-between;
 }
 
-.description__two-columns {
-  margin: 100px auto 70px;
-}
-
 .two-columns__brief {
   margin: 0;
   padding: 0;
@@ -182,7 +178,7 @@
 .feynman {
   margin-top: 100px;
   position: relative;
-  min-height: 790px;
+  height: 890px;
   background-color: #F2F2F2;
   z-index: 1;
   padding-top: 100px;
@@ -268,8 +264,8 @@
   display: flex;
   color: white;
   justify-content: center;
-  align-items: center;
   min-height: 350px;
+  align-items: stretch;
 }
 
 .footer__columns {
