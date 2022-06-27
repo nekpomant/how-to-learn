@@ -6,7 +6,6 @@
 * CSS;
 * flexbox;
 * git;
-* ~молитва~
 
-### Что доработать:
-Косметический ремонт кода
+### Ссылка на проект:
+https://nekpomant.github.io/how-to-learn/
